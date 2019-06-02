@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6979" started-at="2019-05-31T01:18:23Z" finished-at="2019-05-31T01:18:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6979" started-at="2019-05-31T01:18:23Z" finished-at="2019-05-31T01:18:30Z">
+      <class name="com.class02.PriortyExampleTwo">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.class02.PriortyExampleTwo@7823a2f9]" name="setUp" is-config="true" duration-ms="4075" started-at="2019-05-31T01:18:23Z" finished-at="2019-05-31T01:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.class02.PriortyExampleTwo@7823a2f9]" name="login" duration-ms="674" started-at="2019-05-31T01:18:27Z" finished-at="2019-05-31T01:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="mainPage()[pri:1, instance:com.class02.PriortyExampleTwo@7823a2f9]" name="mainPage" duration-ms="2053" started-at="2019-05-31T01:18:28Z" finished-at="2019-05-31T01:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainPage -->
+        <test-method status="PASS" signature="closePage()[pri:0, instance:com.class02.PriortyExampleTwo@7823a2f9]" name="closePage" is-config="true" duration-ms="150" started-at="2019-05-31T01:18:30Z" finished-at="2019-05-31T01:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+      </class> <!-- com.class02.PriortyExampleTwo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
