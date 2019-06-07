@@ -1,29 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6979" started-at="2019-05-31T01:18:23Z" finished-at="2019-05-31T01:18:30Z">
+  <suite name="Default suite" duration-ms="25044" started-at="2019-06-07T02:02:00Z" finished-at="2019-06-07T02:02:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6979" started-at="2019-05-31T01:18:23Z" finished-at="2019-05-31T01:18:30Z">
-      <class name="com.class02.PriortyExampleTwo">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.class02.PriortyExampleTwo@7823a2f9]" name="setUp" is-config="true" duration-ms="4075" started-at="2019-05-31T01:18:23Z" finished-at="2019-05-31T01:18:27Z">
+    <test name="Default test" duration-ms="25044" started-at="2019-06-07T02:02:00Z" finished-at="2019-06-07T02:02:25Z">
+      <class name="com.class04.DataProviderExample">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.class04.DataProviderExample@457e2f02]" name="setUP" is-config="true" duration-ms="4123" started-at="2019-06-07T02:02:00Z" finished-at="2019-06-07T02:02:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.class02.PriortyExampleTwo@7823a2f9]" name="login" duration-ms="674" started-at="2019-05-31T01:18:27Z" finished-at="2019-05-31T01:18:28Z">
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class04.DataProviderExample@457e2f02]" name="getData" duration-ms="2983" started-at="2019-06-07T02:02:04Z" data-provider="setUpData" finished-at="2019-06-07T02:02:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[last1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[00-00-0000]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="mainPage()[pri:1, instance:com.class02.PriortyExampleTwo@7823a2f9]" name="mainPage" duration-ms="2053" started-at="2019-05-31T01:18:28Z" finished-at="2019-05-31T01:18:30Z">
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.class04.DataProviderExample@457e2f02]" name="tearDown" is-config="true" duration-ms="273" started-at="2019-06-07T02:02:07Z" finished-at="2019-06-07T02:02:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainPage -->
-        <test-method status="PASS" signature="closePage()[pri:0, instance:com.class02.PriortyExampleTwo@7823a2f9]" name="closePage" is-config="true" duration-ms="150" started-at="2019-05-31T01:18:30Z" finished-at="2019-05-31T01:18:30Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.class04.DataProviderExample@457e2f02]" name="setUP" is-config="true" duration-ms="2876" started-at="2019-06-07T02:02:07Z" finished-at="2019-06-07T02:02:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closePage -->
-      </class> <!-- com.class02.PriortyExampleTwo -->
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class04.DataProviderExample@457e2f02]" name="getData" duration-ms="2356" started-at="2019-06-07T02:02:10Z" data-provider="setUpData" finished-at="2019-06-07T02:02:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[last2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[00-01-0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.class04.DataProviderExample@457e2f02]" name="tearDown" is-config="true" duration-ms="191" started-at="2019-06-07T02:02:13Z" finished-at="2019-06-07T02:02:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.class04.DataProviderExample@457e2f02]" name="setUP" is-config="true" duration-ms="3004" started-at="2019-06-07T02:02:13Z" finished-at="2019-06-07T02:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class04.DataProviderExample@457e2f02]" name="getData" duration-ms="3319" started-at="2019-06-07T02:02:16Z" data-provider="setUpData" finished-at="2019-06-07T02:02:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[last3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[00-02-0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.class04.DataProviderExample@457e2f02]" name="tearDown" is-config="true" duration-ms="191" started-at="2019-06-07T02:02:19Z" finished-at="2019-06-07T02:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.class04.DataProviderExample@457e2f02]" name="setUP" is-config="true" duration-ms="2964" started-at="2019-06-07T02:02:19Z" finished-at="2019-06-07T02:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class04.DataProviderExample@457e2f02]" name="getData" duration-ms="2522" started-at="2019-06-07T02:02:22Z" data-provider="setUpData" finished-at="2019-06-07T02:02:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[last4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[00-03-0000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.class04.DataProviderExample@457e2f02]" name="tearDown" is-config="true" duration-ms="204" started-at="2019-06-07T02:02:25Z" finished-at="2019-06-07T02:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.class04.DataProviderExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
